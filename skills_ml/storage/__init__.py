@@ -8,7 +8,7 @@ from contextlib import contextmanager
 from retrying import retry
 from urllib.parse import urlparse
 
-from sklearn.externals import joblib
+import joblib
 import wrapt
 
 
