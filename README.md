@@ -1,14 +1,6 @@
 skill-ml
 =========
 
-[![Build Status](https://travis-ci.org/workforce-data-initiative/skills-ml.svg?branch=master)](https://travis-ci.org/workforce-data-initiative/skills-ml)
-[![Code Coverage](https://codecov.io/gh/workforce-data-initiative/skills-ml/branch/master/graph/badge.svg)](https://codecov.io/gh/workforce-data-initiative/skills-ml)
-[![Updates](https://pyup.io/repos/github/workforce-data-initiative/skills-ml/shield.svg)](https://pyup.io/repos/github/workforce-data-initiative/skills-ml/)
-[![Python 3](https://pyup.io/repos/github/workforce-data-initiative/skills-ml/python-3-shield.svg)](https://pyup.io/repos/github/workforce-data-initiative/skills-ml/)
-[![PyPI](https://img.shields.io/pypi/v/skills-ml.svg)]()
-[![Code Climate](https://codeclimate.com/github/workforce-data-initiative/skills-ml.png)](https://codeclimate.com/github/workforce-data-initiative/skills-ml)
-
-
 **Open Skills Project - Machine Learning**
 
 This is the library for the methods usable by the Open Skills API, including processing algorithms and utilities for computing our jobs and skills taxonomy.
@@ -24,10 +16,10 @@ Documentation
 Quick Start
 -----------
 ### 1. Virtualenv
-**skills-ml** depends on python3.6, so create a virtual environment using a python3.6 executable.
+**skills-ml** depends on python3.8, so create a virtual environment using a python3.6 executable.
 
 ```bash
-virtualenv venv -p /usr/bin/python3.6
+virtualenv venv -p /usr/bin/python3.8
 ```
 Activate your virtualenv
 
@@ -37,6 +29,15 @@ source venv/bin/activate
 
 ### 2. Installation
 
+#### Prerequisites
+
+* Postgres client
+
+```bash
+brew install postgresql
+```
+
+#### Installation command
 
 ```bash
 pip install skills-ml
