@@ -37,6 +37,12 @@ source venv/bin/activate
 brew install postgresql
 ```
 
+* Graphviz binaries
+
+```bash
+brew install graphviz
+```
+
 #### Installation command
 
 ```bash
